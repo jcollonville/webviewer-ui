@@ -315,7 +315,7 @@ class SearchOverlay extends React.PureComponent {
         <div className="wrapper">
           <div className="main">
             <div className="input-wrapper">
-              <input ref={this.searchTextInput} type="text" autoComplete="off" onChange={this.onChange} onKeyDown={this.onKeyDown} value={searchValue} />
+              <input ref={this.searchTextInput} className="form-control" type="text" autoComplete="off" onChange={this.onChange} onKeyDown={this.onKeyDown} value={searchValue} />
             </div>
             <div className="number-of-results">
               {isSearchPanelOpen &&

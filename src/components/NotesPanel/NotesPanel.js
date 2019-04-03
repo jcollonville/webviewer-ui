@@ -204,6 +204,7 @@ class NotesPanel extends React.PureComponent {
         : <React.Fragment>
             <div className="header">
               <input 
+		className="form-control"
                 type="text" 
                 placeholder={t('message.searchPlaceholder')}
                 onChange={this.handleInputChange} 

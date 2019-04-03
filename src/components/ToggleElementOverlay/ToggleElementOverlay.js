@@ -76,7 +76,7 @@ class ToggleElementOverlay extends React.PureComponent {
           <div className="OverlayText" onClick={onClick}>
             <input
               type="text"
-              className="textarea"
+              className="textarea form-input"
               value={this.state.value}
               onChange={this.onChange} 
               onKeyPress={this.onKeyPress}
